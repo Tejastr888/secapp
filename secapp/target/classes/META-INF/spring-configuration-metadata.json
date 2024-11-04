@@ -1,0 +1,57 @@
+{
+  "groups": [
+    {
+      "name": "jwt",
+      "type": "com.example.secapp.config.JwtConfig",
+      "sourceType": "com.example.secapp.config.JwtConfig"
+    },
+    {
+      "name": "otp",
+      "type": "com.example.secapp.config.OtpConfig",
+      "sourceType": "com.example.secapp.config.OtpConfig"
+    },
+    {
+      "name": "otp.email-verification",
+      "type": "com.example.secapp.config.OtpConfig$OtpConfigProperties",
+      "sourceType": "com.example.secapp.config.OtpConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "jwt.access-token-ttl",
+      "type": "java.time.Duration",
+      "sourceType": "com.example.secapp.config.JwtConfig"
+    },
+    {
+      "name": "jwt.private-key",
+      "type": "java.security.interfaces.RSAPrivateKey",
+      "sourceType": "com.example.secapp.config.JwtConfig"
+    },
+    {
+      "name": "jwt.public-key",
+      "type": "java.security.interfaces.RSAPublicKey",
+      "sourceType": "com.example.secapp.config.JwtConfig"
+    },
+    {
+      "name": "otp.email-verification.cache-prefix",
+      "type": "java.lang.String",
+      "sourceType": "com.example.secapp.config.OtpConfig$OtpConfigProperties"
+    },
+    {
+      "name": "otp.email-verification.characters",
+      "type": "java.lang.String",
+      "sourceType": "com.example.secapp.config.OtpConfig$OtpConfigProperties"
+    },
+    {
+      "name": "otp.email-verification.length",
+      "type": "java.lang.Integer",
+      "sourceType": "com.example.secapp.config.OtpConfig$OtpConfigProperties"
+    },
+    {
+      "name": "otp.email-verification.ttl",
+      "type": "java.time.Duration",
+      "sourceType": "com.example.secapp.config.OtpConfig$OtpConfigProperties"
+    }
+  ],
+  "hints": []
+}
